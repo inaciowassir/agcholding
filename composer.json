@@ -1,0 +1,28 @@
+{
+	"name": "inaciowassir/sprintframework",
+    "description": "This is a PHP MVC framework that can handle all your routes, data models, schemas and controllers. This framework makes easy to developer your projects.",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Inacio Agostinho Uassire",
+        "email": "support@nolibary.com",
+        "homepage": "https://sprintframework.nolibary.com/"
+      }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "phpmailer/phpmailer": "^6.5",
+      "vlucas/phpdotenv": "^5.4",
+      "kreait/firebase-php": "^5.26"
+    },
+    "autoload": {
+      "psr-4": {
+        "sprint\\": ""
+      }
+    },
+	"config": {
+        "platform": {
+            "php": "7.4.0"
+        }
+    }
+}
